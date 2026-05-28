@@ -2,6 +2,10 @@
 # Day Trip Agent, borrowed from: https://colab.research.google.com/drive/1zzTZ8t6aYFbsyrWpGAtmirNdA9R-bbWz#scrollTo=1wkXA9koiuRK
 #
 
+# System libraries
+import requests
+import json
+
 # Core tooling for a basic agent
 from google.adk.agents.llm_agent import Agent
 
